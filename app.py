@@ -25,7 +25,7 @@ def analyze():
     )
 
     if result.returncode != 0:
-        return jsonify({"error": "Không phân tích được link"}), 400
+        return jsonify({"error": "cái này anh Nam chịu rồi đợi anh Nam fix"}), 400
 
     info = json.loads(result.stdout)
 
